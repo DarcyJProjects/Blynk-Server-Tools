@@ -11,19 +11,21 @@ A bundle of files for managing your local Blynk server running on windows. Creat
 7. All done
 
 ## Usage
-To start your Blynk local server, you must first make sure you have created & enabled the Blynk Firewall rules. To do this, follow step 1 and 2. If you have already done that, there is usually no need to repeat step 1 - instead skip straight to step 2. If you are taking your server offline and want to disable the firewall rules, you can skip to step 3.
-Make sure there is no server instance already running before trying to start your server.
+To start your Blynk local server, you must first make sure you have created & enabled the Blynk Firewall rules.<br>
+To do this, follow step 1 and 2. If you have already done that, there is usually no need to repeat step 1 - instead skip straight to step 2.<br>
+If you are taking your server offline and want to disable the firewall rules, you can skip to step 3.<br>
+Make sure there is no server instance already running before trying to start your server.<br>
 
-1. Enabling Blynk Firewall Rule (will create the rule if not found)
-    i. Run "firewall.bat" with administrative privileges.
-    ii. Type "1" and press "ENTER" to select the "Enable Firewall Rules for Blynk (will create rule if not found)" option.
+1. Enabling Blynk Firewall Rule (will create the rule if not found)<br>
+    i. Run "firewall.bat" with administrative privileges.<br>
+    ii. Type "1" and press "ENTER" to select the "Enable Firewall Rules for Blynk (will create rule if not found)" option.<br>
     iii. Wait for it to finish and close the window.
-2. Running the server
-    i. Make sure you have configured the server to your liking in your "server.properties" file.
-    ii. Run "start.bat"
-    iii. Wait until it starts the server. It will output errors if any have occured when trying to start the server.
-    iv. If you want to stop the server, press "CTRL" + "C". Wait until it says "Terminate batch job (Y/N)?". Then type "y" and press "ENTER".
+2. Running the server<br>
+    i. Make sure you have configured the server to your liking in your "server.properties" file.<br>
+    ii. Run "start.bat"<br>
+    iii. Wait until it starts the server. It will output errors if any have occured when trying to start the server.<br>
+    iv. If you want to stop the server, press "CTRL" + "C". Wait until it says "Terminate batch job (Y/N)?". Then type "y" and press "ENTER".<br>
 3. Disabling Blynk Firewall Rule (will still create the rule if not found)
-    i. Run "firewall.bat" with administrative privileges.
-    ii. Type "2" and press "ENTER" to select the "Disable Firewall Rules for Blynk (will create rule if not found)" option.
+    i. Run "firewall.bat" with administrative privileges.<br>
+    ii. Type "2" and press "ENTER" to select the "Disable Firewall Rules for Blynk (will create rule if not found)" option.<br>
     iii. Wait for it to finish and close the window.
