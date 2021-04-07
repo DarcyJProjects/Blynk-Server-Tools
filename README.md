@@ -1,5 +1,6 @@
 # Blynk Server Tools
-A bundle of files for managing your local Blynk server running on windows. Created in Batch.
+A bundle of files for managing your local Blynk server running on windows. Created in Batch.<br>
+We are not affiliated, associated, authorized, endorsed by, or in any way officially connected with Blynk, or any of its subsidiaries or its affiliates. The official Blynk website can be found at https://blynk.io.
 
 ## Installation
 1. Copy/Move "firewall.bat" and "start.bat" to the directory of your Blynk server files (directory that has the Blynk server jar file).
