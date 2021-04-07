@@ -1,2 +1,2 @@
-# Blynk-Server-Tools
-A bundle of tools for a local Blynk server.
+# Blynk Server Tools
+A bundle of files for managing your local Blynk server.
