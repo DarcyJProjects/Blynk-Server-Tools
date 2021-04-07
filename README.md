@@ -7,7 +7,7 @@ A bundle of files for managing your local Blynk server running on windows. Creat
 3. Right Click "firewall.bat", select Edit.
 4. Once open, go to the configuration section in "firewall.bat". Set the "ruleport" to the same port as found in the "https, web sockets and app port" section in your "server.properties" file. I recommend to leave the "rulename" the same for easy identification. Save changes to "firewall.bat".
 5. Right Click "start.bat", select Edit.
-6. Once open, go to the configuration section in "start.bat". Set the "ruleport" to the same port as you just set in your "firewall.bat" file. Set the "blynkjar" to the name of your Blynk server jar file including the ".jar" file extension. Download latest Blynk server jar file by clicking [here](https://github.com/blynkkk/blynk-server/releases/tag/v0.41.15) (you'll need [JDK](https://www.oracle.com/au/java/technologies/javase-downloads.html) installed). Save changes to "firewall.bat".
+6. Once open, go to the configuration section in "start.bat". Set the "ruleport" to the same port as you just set in your "firewall.bat" file. Set the "blynkjar" to the name of your Blynk server jar file including the ".jar" file extension. Download latest Blynk server jar file by [clicking here](https://github.com/blynkkk/blynk-server/releases/tag/v0.41.15) (you'll need [JDK](https://www.oracle.com/au/java/technologies/javase-downloads.html) installed). Save changes to "firewall.bat".
 7. All done
 
 ## Usage
